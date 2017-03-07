@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?> 
- <extension> 
- <id>com.awu.register</id> 
- <name>每日打卡</name> 
- <show_icon>true</show_icon> 
- <description>点击按钮后在气泡中显示Hello World</description> 
- <version>0.1</version>
- <request_api_version>1</request_api_version>
- <author>awu</author>
- </extension> 
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<id>com.awu.register</id>
+	<name>每日打卡</name>
+	<show_icon>true</show_icon>
+	<description>点击按钮后在气泡中显示Hello World</description>
+	<popup page="popup.html" width="100" height="100" />
+	<author>awu</author>
+	<version>0.1</version>
+	<request_api_version>1</request_api_version>
+</extension> 
